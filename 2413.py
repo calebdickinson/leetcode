@@ -1,6 +1,4 @@
 class Solution:
-    def smallestEvenMultiple(self, n: int) -> int:
-        if n % 2 != 0:
-            return n * 2
-        else:
-            return n
+    def smallestEvenMultiple(a,b)->0:
+        if b%2==0:return b
+        if b%2==1:return b*2
